@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduKabayan - Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation with Dropdown -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">📚 EduKabayan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    
+                    <!-- Resources Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="features.html">✨ Features</a></li>
+                            <li><a class="dropdown-item" href="pricing.html">💰 Pricing</a></li>
+                            <li><a class="dropdown-item" href="blog.html">📝 Blog</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="instructor-page.html">👨‍🏫 Teach on EduKabayan</a></li>
+                            <li><a class="dropdown-item" href="student-dashboard.html">📊 My Dashboard</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have questions? We'd love to hear from you. Send us a message!</p>
+            
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <select class="form-select" id="subject" name="subject" required>
+                                    <option value="">Choose a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="courses">Course Information</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h4>Contact Information</h4>
+                        <div class="contact-item">
+                            <strong>📍 Address</strong>
+                            <p>Katapatan Mutual Homes, Brgy. Banay-Banay<br>Cabuyao, Laguna<br>Philippines</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📧 Email</strong>
+                            <p>support@edukabayan.ph<br>info@edukabayan.ph</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📱 Phone</strong>
+                            <p>+63 992 767 3978<br>+63 995 668 9735</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>🕒 Business Hours</strong>
+                            <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3 class="footer-title">📚 EduKabayan</h3>
+                    <p class="text-muted">Empowering learners worldwide with quality education and innovative learning experiences.</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="courses.html" class="footer-link">Courses</a>
+                    <a href="features.html" class="footer-link">Features</a>
+                    <a href="pricing.html" class="footer-link">Pricing</a>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5 class="footer-title">Resources</h5>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="instructor-page.html" class="footer-link">Become Instructor</a>
+                    <a href="student-dashboard.html" class="footer-link">Student Dashboard</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">Stay Connected</h5>
+                    <p class="text-muted">Subscribe to our newsletter for updates and exclusive offers</p>
+                    <form class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email" required>
+                        <button class="btn btn-success" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EduKabayan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
